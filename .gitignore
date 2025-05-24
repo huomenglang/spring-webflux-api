@@ -2,6 +2,33 @@
 **/build/
 !src/**/build/
 
+# === Global Ignore ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.class
+
+# === Gradle (spring-webflux) ===
+spring-webflux/.gradle/
+spring-webflux/build/
+spring-webflux/out/
+
+# Gradle wrapper
+spring-webflux/gradle-app/settings.gradle
+spring-webflux/gradlew
+spring-webflux/gradlew.bat
+spring-webflux/gradle/
+
+# === Maven (webflux-playground) ===
+webflux-playground/target/
+webflux-playground/.mvn/
+webflux-playground/mvnw
+webflux-playground/mvnw.cmd
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
