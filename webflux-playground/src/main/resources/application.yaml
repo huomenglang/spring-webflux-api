@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: webflux-playgroud
+  sql:
+    init:
+      data-locations: classpath:data/data.sql
+  webflux:
+    static-path-pattern: "/**"
+  web:
+    resource:
+      add-mapping: false
+sec: sec008
+server:
+  port: 7000
+

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: spring-webflux
+
+  main:
+    web-application-type: reactive
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    operations-sorter: alpha
+    doc-expansion: none
+server:
+  port: 8080
+#springdoc:
+#  api-docs:
+#    enabled: true
+#    path: /v3/api-docs
+#  swagger-ui:
+#    path: /swagger-ui.html
+#    display-request-duration: true
+#    operations-sorter: alpha
+#    tags-sorter: alpha
+
