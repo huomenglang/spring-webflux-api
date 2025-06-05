@@ -9,7 +9,7 @@ spring:
   web:
     resource:
       add-mapping: false
-sec: sec008
+sec: session1
 server:
   port: 7000
 
