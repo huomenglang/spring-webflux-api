@@ -11,4 +11,6 @@ public interface CustomerRepository extends ReactiveCrudRepository<Customer, Int
 
 
     Flux<Customer> findByName(String name);
+
+    Flux<Customer> findByNameStartingWith(String name);
 }
